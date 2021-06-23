@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/appacademy/.nvm/versions/node/v14.15.0/bin/node /Users/appacademy/.nvm/versions/node/v14.15.0/bin/yarn add express mongoose dotenv helmet morga nodemon
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/appacademy/.nvm/versions/node/v14.15.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Python.framework/Versions/3.9/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/morga: Not found
+      at Request.params.callback [as _callback] (/Users/appacademy/.nvm/versions/node/v14.15.0/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/appacademy/.nvm/versions/node/v14.15.0/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/Users/appacademy/.nvm/versions/node/v14.15.0/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/Users/appacademy/.nvm/versions/node/v14.15.0/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "fbook",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
